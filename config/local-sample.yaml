@@ -1,0 +1,16 @@
+# 数据库
+database:
+  mysql:
+    seawaysAdmin:
+      host: localhost 
+      port: 3306
+      userName: root
+      password: password 
+      dbName: dbName 
+  sqlserver:
+    k3Cloud:
+      host: localhost
+      port: 1433
+      userName: sa
+      password: password
+      dbName: dbName

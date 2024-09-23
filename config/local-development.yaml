@@ -1,0 +1,41 @@
+# 数据库
+database:
+  mysql:
+    seawaysTrace:
+      host: localhost 
+      port: 3306
+      userName: root
+      password: seaways+2408
+      dbName: seaways-trace
+  
+# 金蝶
+kingdee:
+  authType: 1
+  hostUrl: http://218.13.172.226:8093/K3Cloud/
+  acctId: 63c8ae53ee2412
+  userName: Administrator
+  password: kingdee@123
+  appId: 281078_T/3CX7vPTlraXVxGRf1rV8Xu4h6Z2Akt
+  appSecret: b5a88dc10d0b41a7a43120bdb74712bb
+  lcid: 2052
+# JWT
+jwt:
+  secretKey: 41CDFA2B0F396679DFDD558A62A5C45995BDBACE4680AA8D42676F1DD534DADF
+# 聚水潭
+jushuitan:
+  appKey: 795057395989454f9a122914b1163a12
+  appSecret: 316f90b628974578aeced1ac8d80493b
+  accessToken: 86a71ca59b974148a9dd3ad4174aa0be
+# 一物一码
+objectCode:
+  hmacSecretKey: 810231cd9dbd46af26a71b1aa3e3eca650473e6f4fed292bc321592ab84d43d3
+  fpeSecretKey: C8BDE7B237EB2D2B41C04CE2994ACC6327E3ACA63EF2790A5378F8F127A1D83A
+  fpeTweak: 79068DF7AA2E03FB
+# 导出文件的目录
+exportDir: /data/exports
+
+# redis
+redis:
+  host: 192.168.2.220
+  port: 6379
+  password: 453666+R
